@@ -1,0 +1,55 @@
+.pagination-controls {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .pagination-button {
+    background-color: #3182ce; /* Blue */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination-button:disabled {
+    background-color: #a0aec0; /* Gray */
+    cursor: not-allowed;
+  }
+  
+  .pagination-info {
+    font-size: 1rem;
+  }
+  
+.table-container {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e2e8f0; /* Light Gray */
+  }
+  
+  .table th, .table td {
+    border: 1px solid #e2e8f0; /* Light Gray */
+    padding: 0.5rem 1rem;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f7fafc; /* Light Gray for Header */
+    font-weight: bold;
+  }
+  
+  .table tr:nth-child(odd) {
+    background-color: #ffffff; /* White for odd rows */
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light Gray for even rows */
+  }
+  
